@@ -1,0 +1,4 @@
+<included>
+    <!-- works with 1.5.4, broken with 1.5.5 and 1.5.6 -->
+    <springProperty name="prefix" source="prefix" scope="context" defalultValue="[default prefix]" />
+</included>
